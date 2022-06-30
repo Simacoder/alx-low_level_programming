@@ -1,7 +1,11 @@
-#include <stdio.h> /* the header file for c function*/
-/* main -> This is a print */
-int main(void)/*the main function */
+#include <stdio.h>
+
+/**
+ * main-Entry point
+ * Return:Always 0 (Success)
+ */
+int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle"); /*puts line*/
-return (0); /* the return function return zero for success*/
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
 }
