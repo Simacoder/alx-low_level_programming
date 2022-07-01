@@ -12,6 +12,6 @@ for (ch = 97; ch <= 122; ch++)
 {
 putchar(ch);
 }
-putchar("10");/* ASCII code*/
+putchar(10);/* ASCII code*/
 return (0);
 }
