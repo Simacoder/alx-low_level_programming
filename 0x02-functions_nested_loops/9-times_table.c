@@ -5,13 +5,28 @@
  */
 void times_table(void)
 {
-	int n, m;
+	int n, m, z;
 
-	for (n = 0; n <= 9; n++)
+	for (n = 0; n < 10; n++)
 	{
-		for (m = 0; m <= 9; m++)
+		for (m = 0; m < 10; m++)
 		{
-		_putchar(n * m);
+			z = n * m;
+			if (m == 0)
+				_putchar(z + '0');
+			if (m != 0 && z < 10)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(z + '0');
+			} else if (z  >= 10)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar((z / 10) + '0');
+				_putchar((z % 10) + '0');
+			}
 		}
 		_putchar('\n');
 	}
