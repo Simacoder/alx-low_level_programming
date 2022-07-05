@@ -11,11 +11,7 @@ void times_table(void)
 	{
 		for (m = 0; m <= 9; m++)
 		{
-
-		int products;
-
-		products = n * m;
-		printf(products);
+		_putchar(n * m);
 		_putchar('\n');
 		}
 	}
