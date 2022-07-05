@@ -15,7 +15,7 @@ void times_table(void)
 		int products;
 
 		products = n * m;
-		_putchar(products);
+		printf(products);
 		_putchar('\n');
 		}
 	}
