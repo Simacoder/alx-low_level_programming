@@ -9,11 +9,15 @@ void times_table(void)
 
 	for (n = 0; n <= 9; n++)
 	{
+		for (m = 0; m <= 9; m++)
+		{
+
 		int products;
 
 		products = n * m;
 		_putchar(products);
 		_putchar('\n');
+		}
 	}
 }
 
