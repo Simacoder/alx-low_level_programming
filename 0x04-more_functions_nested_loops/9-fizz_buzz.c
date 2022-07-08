@@ -25,7 +25,7 @@ int main(void)
 		if (i < h)
 		printf("Buzz ");
 		else
-			printf("Buzz ");
+			printf("Buzz");
 		}
 		else
 		{
