@@ -1,11 +1,11 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * fizz_buzz- print nmber from 1 to 98
+ * main - print nmber from 1 to 98
+ * Return: Always 0 success
  */
 
-void fizz_buzz(void)
+int main(void)
 {
 	int h = 100;
 	int i = 1;
@@ -34,6 +34,7 @@ void fizz_buzz(void)
 		i++;
 	}
 	printf("\n");
+	return (0);
 
 }
 
