@@ -7,21 +7,34 @@
 
 void fizz_buzz(void)
 {
-	int x;
+	int h = 100;
+	int i;
 
-	for (x = 1; x <= 100; x++)
+	i = 1;
+	while (i <= h)
 	{
-		if (x == 100)
-			printf("Buzz");
-		else if (x % 3 == 0 && x % 5 == 0)
-		printf("FizzBuzz ");
-		else if (x % 3 == 0)
+		if (i % 3 == 0 &&  i % 5 == 0)
+		{
+			printf("FizzBuzz ");
+		}
+		else if (i % 3 == 0)
+		{
 			printf("Fizz ");
-		else if (x % 5 == 0)
-			printf("Buzz ");
+		}
+		else if (i % 5 == 0)
+		{
+		if (i < h)
+		printf("Buzz ");
 		else
-			printf("%d ", x);
+			printf("Buzz ");
+		}
+		else
+		{
+			printf("%i ", i);
+		}
+		i++;
 	}
 	printf("\n");
+
 }
 
