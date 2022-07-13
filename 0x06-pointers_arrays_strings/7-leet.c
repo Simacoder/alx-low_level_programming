@@ -9,17 +9,21 @@ char *leet(char *s)
 {
 	int a = 0;
 	int b;
-	char vowel[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T' };
+	int l = 5;
+	char vowel[5] = {'A', 'E', 'O', 'T', 'L' };
+	char vowelnum[5] = {'4', '3', '0', '7', '1'};
 
-	while (s[++a])
+
+	while (s[a])
 	{
-		for (b = 0; b <= 7; b++)
+		b = 0;
+		while (b < l)
 		{
 			if (s[a] == vowel[b] || s[a] - 32 == vowel[b])
-				s[a] = b + '0';
+				s[a] = vowelnum[b];
+			b++;
 		}
+		a++;
 	}
 	return (s);
 }
-
-
