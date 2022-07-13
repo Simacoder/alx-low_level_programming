@@ -15,7 +15,7 @@ char *leet(char *s)
 	{
 		for (b == 0; b <= 7; b++)
 		{
-			if (s[a] == leet[b] || s[a] - 32 == leet[b])
+			if (s[a] == vowel[b] || s[a] - 32 == vowel[b])
 				s[a] = b + '0';
 		}
 	}
