@@ -13,7 +13,7 @@ char *leet(char *s)
 
 	while (s[++a])
 	{
-		for (b == 0; b <= 7; b++)
+		for (b = 0; b <= 7; b++)
 		{
 			if (s[a] == vowel[b] || s[a] - 32 == vowel[b])
 				s[a] = b + '0';
