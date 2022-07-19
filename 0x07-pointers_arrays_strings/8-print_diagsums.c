@@ -16,12 +16,12 @@ void print_diagsums(int *a, int size)
 	length = 0;
 	sum_diag1 = 0;
 	sum_diag2 = 0;
-	length = (length * length) - 1;
-	for (i = 0; i <= length; i = i + (length + 1))
+	length = (size * size) - 1;
+	for (i = 0; i <= length; i = i + (size + 1))
 	{
 		sum_diag1 += a[i];
 	}
-	for (i = (length - 1); i < length; i = i + (length - 1))
+	for (i = (size - 1); i < length; i = i + (size - 1))
 	{
 		sum_diag2 += a[i];
 	}
