@@ -7,7 +7,7 @@
  * Return: string
  */
 
-unsigned int _strspn(char *s, char admit)
+unsigned int _strspn(char *s, char *admit)
 {
 	unsigned int i, j;
 
