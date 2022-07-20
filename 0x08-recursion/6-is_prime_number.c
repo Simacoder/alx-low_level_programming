@@ -26,7 +26,7 @@ int check_prim(int s, int n)
 	if (s % n == 0 && n > 1)
 		return (0);
 	if ((s / n) < n)
-		print(1);
+		return (1);
 	return (check_prim(s, n + 1));
 }
 
