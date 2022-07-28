@@ -19,7 +19,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 	mem = malloc(size * nmemb);
 	if (mem == NULL)
-		return (NULL);
+		return NULL;
 		filler = mem;
 	for (index = 0; index < (size * nmemb); index++)
 	{
