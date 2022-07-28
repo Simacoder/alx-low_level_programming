@@ -20,7 +20,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	mem = malloc(size * nmemb);
 	if (mem == NULL)
 		return NULL;
-		filler = mem;
+	filler = mem;
 	for (index = 0; index < (size * nmemb); index++)
 	{
 		filler[index] = '\0';
