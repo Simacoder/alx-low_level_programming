@@ -9,5 +9,7 @@ void print_binary(unsigned long int n);
 int get_bit(unsigned long int n, unsigned int index);
 int set_bit(unsigned long int *n, unsigned int index);
 int clear_bit(unsigned long int *n, unsigned int index);
+int get_endianness(void);
 unsigned int flip_bits(unsigned long int n, unsigned long int m);
+int check_valid_string(const char *b);
 #endif /*MAIN_H*/
