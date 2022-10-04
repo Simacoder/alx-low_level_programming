@@ -8,6 +8,6 @@
   */
 char *_strstr(char *s, char *c)
 {
-	// empty function
+	/*empty function*/
 	return (0);
 }
