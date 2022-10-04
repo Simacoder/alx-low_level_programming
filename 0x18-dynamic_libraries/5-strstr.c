@@ -9,4 +9,5 @@
 char *_strstr(char *s, char *c)
 {
 	// empty function
+	return (0);
 }
